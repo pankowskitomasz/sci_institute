@@ -7,13 +7,18 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link rel="icon" href="img/favicon.png"/>
-    <title>Coming soon!</title>
+    <title>SCI Institute | Home</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a href="#" class="navbar-brand ms-2">
+    <header class="position-absolute border-bottom border-light w-100 z-100">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="index.html" class="navbar-brand ms-2">
                 <img src="img/navbar_logo.png" class="" alt="logo"/>
+                <span class="h1 fw-bold text-white navbar-text vertical-bottom border-bottom pb-0">
+                    SCI           
+                </span> 
+                <br/>  
+                <small class="fs-6 float-end">SCI Institute</small>   
             </a>
             <button class="navbar-toggler me-2" 
                 data-bs-toggle="collapse"
@@ -23,42 +28,417 @@
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav ms-auto p-2 text-end">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="about.html" class="nav-link text-light hover-underline">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="offer.html" class="nav-link text-light hover-underline">Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link text-light hover-underline">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-light hover-underline">Contact</a>
+                    </li>
+                    <li class="nav-item bg-success text-white my-auto py-2 px-3 rounded-pill">
+                        +(00) 12 123 45 67
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="comingsoon-s1 container-fluid d-flex align-items-center minh-100vh bg-dark">
+        <section class="index-s1 container-fluid d-flex align-items-center maxh-600 h-100vh bg-dark px-0">
             <div class="row w-100 mx-0">
-                <div class="col-12 col-sm-10 col-md-6 col-lg-5 col-xl-4 mx-auto text-center">
-                    <h2 class="text-white fw-bold mb-3">Coming soon...</h2>
-                    <p class="initialism text-white">
-                        Hi, we are not ready yet, however we are staring soon. 
-                        Please visit us again in a while.
+                <div class="col-12 p-0">
+                    <div class="carousel slide" data-bs-ride="carousel" id="index-s1__carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-bs-target="#index-s1__carousel" data-bs-slide-to="0"></li>
+                            <li data-bs-target="#index-s1__carousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#index-s1__carousel" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/index-s1__carousel/slide-1.jpg" 
+                                    class="w-100 maxh-600 h-100vh obj-cover filter-bright-4" 
+                                    alt="slide"/>
+                                <div class="carousel-caption lead fw-bold">
+                                    We drive ecological transformation 
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/index-s1__carousel/slide-2.jpg" 
+                                    class="w-100 maxh-600 h-100vh obj-cover filter-bright-4" 
+                                    alt="slide"/>
+                                <div class="carousel-caption lead fw-bold">
+                                    We help saving energy
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/index-s1__carousel/slide-3.jpg" 
+                                    class="w-100 maxh-600 h-100vh obj-cover filter-bright-4" 
+                                    alt="slide"/>
+                                <div class="carousel-caption lead fw-bold">
+                                    We create longterm solutions
+                            </div>
+                        </div>
+                        <a href="#" data-bs-target="#index-s1__carousel" class="carousel-control-prev"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#" data-bs-target="#index-s1__carousel" class="carousel-control-next"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="index-2 container-fluid d-flex align-items-center minh-50vh bg-white">
+            <div class="row w-100 g-3 mx-auto my-0 py-4">
+                <div class="col-12 text-center px-4">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-12 col-sm-10 col-md-8 col-xxl-6 mx-auto py-3">
+                            <h4 class="fs-bold text-light-green">
+                                About SCI Institute    
+                            </h4>
+                            <p class="text-secondary">
+                                We are one of the most known companies operating in field of support 
+                                for lasting energetic revolution. During the whole lifetime of our
+                                company we realized tens of expertises, audits and analyzes, in 
+                                cooperation with the most important participants of energy producers
+                                and consumers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row w-100 g-3 mx-auto">
+                        <div class="col-12 col-sm-6">
+                            <a href="offer.html#industry" class="text-decoration-none">
+                                <div class="card h-100 shadow-sm hover-drop-shadow">
+                                    <div class="row w-100 mx-auto">
+                                        <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center p-2">
+                                            <img src="img/tiles/tile-1.png" class="img-fluid" alt="tile"/>
+                                        </div>
+                                        <div class="col-12 col-sm-8">
+                                            <div class="card-body text-center text-sm-start">
+                                                <h4 class="text-light-green">
+                                                    Industry
+                                                </h4>
+                                                <p class="text-secondary font-sm">
+                                                    We know how to save energy in industry and 
+                                                    realize audits.We observe the market in order
+                                                    to provide the possible solutions.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a href="offer.html#ecology" class="text-decoration-none">
+                                <div class="card h-100 shadow-sm hover-drop-shadow">
+                                    <div class="row w-100 mx-auto">
+                                        <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center p-2">
+                                            <img src="img/tiles/tile-2.png" class="img-fluid" alt="tile"/>
+                                        </div>
+                                        <div class="col-12 col-sm-8">
+                                            <div class="card-body text-center text-sm-start">
+                                                <h4 class="text-light-green">
+                                                    Ecology
+                                                </h4>
+                                                <p class="text-secondary font-sm">
+                                                    Is electomobility an oportunity for cities? How to
+                                                    limit emission? We provide answers!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a href="offer.html#energy" class="text-decoration-none">
+                                <div class="card h-100 shadow-sm hover-drop-shadow">
+                                    <div class="row w-100 mx-auto">
+                                        <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center p-2">
+                                            <img src="img/tiles/tile-3.png" class="img-fluid" alt="tile"/>
+                                        </div>
+                                        <div class="col-12 col-sm-8">
+                                            <div class="card-body text-center text-sm-start">
+                                                <h4 class="text-light-green">
+                                                    Energy production
+                                                </h4>
+                                                <p class="text-secondary font-sm">
+                                                    Financial support, longterm studies on strategies
+                                                    and concepts. We are trusted partner for many big 
+                                                    companies on the market.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a href="offer.html#clusters" class="text-decoration-none">
+                                <div class="card h-100 shadow-sm hover-drop-shadow">
+                                    <div class="row w-100 mx-auto">
+                                        <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center p-2">
+                                            <img src="img/tiles/tile-4.png" class="img-fluid" alt="tile"/>
+                                        </div>
+                                        <div class="col-12 col-sm-8">
+                                            <div class="card-body text-center text-sm-start">
+                                                <h4 class="text-light-green">
+                                                    Energy clusters
+                                                </h4>
+                                                <p class="text-secondary font-sm">
+                                                    We are the leading solution provider in field 
+                                                    of energy clusters. Check our offer for solutions
+                                                    and services in this field.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <a href="offer.html#trainings" class="text-decoration-none">
+                        <div class="row w-100 mx-auto px-2 h-100">
+                            <div class="card bg-timber-green shadow-sm hover-drop-shadow">
+                                <div class="row w-100 mx-auto">
+                                    <div class="col-12 col-sm-4 col-lg-12 d-flex align-items-center justify-content-center p-4">
+                                        <img src="img/tiles/tile-5.png" 
+                                            class="" 
+                                            alt="tile"/>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-lg-12 px-0">
+                                        <div class="card-body text-center text-sm-start">
+                                            <h4 class="text-light-green">
+                                                Trainings
+                                            </h4>
+                                            <p class="text-white font-sm">
+                                                We have wide experience in energy field. We cooperate 
+                                                in processes of trends creation. We are always ready 
+                                                to provide support and share our knowledge.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="index-s3 container-fluid bg-timber-green d-flex align-items-center justify-content-center border-top border-bottom border-dark">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 col-sm-10 col-md-8 col-xl-6 mx-auto p-4 text-center">
+                    <p class="fs-6 text-white d-inline p-3">
+                        See more information about us
                     </p>
+                    <a href="about.html" class="btn btn-success rounded-pill">
+                        See more
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="index-s4 container-fluid bg-light-green h-50 border-bottom border-secondary">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 col-md-6 maxh-400 h-75vh d-flex align-items-center">
+                    <div class="d-block text-center text-md-start">
+                        <h3 class="text-white mb-3">
+                            Energy management
+                        </h3>
+                        <p class="text-white initialism">
+                            It is initiative in order to expand competences of managerial staff
+                            in field of energy management, available market solutions and 
+                            the newest law regulations. Check available trainings.
+                        </p>
+                        <div class="w-100 py-3">
+                            <a href="offer.html" class="btn btn-outline-light rounded-pill">
+                                See more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-s4__right-col col-12 col-md-6 maxh-400 h-75vh"></div>
+            </div>
+        </section>
+        <section class="index-s5 container-fluid d-flex align-items-center bg-light p-5">
+            <div class="row w-100 mx-auto g-3">  
+                <div class="col-12 text-center px-4">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-12 col-sm-10 col-md-8 col-xxl-6 mx-auto py-3">
+                            <h4 class="fs-bold text-light-green">
+                                News &amp; events  
+                            </h4>
+                            <p class="text-secondary">
+                                Check the newest information about us and events we
+                                participate.
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+                <div class="col-12 col-sm-6">                    
+                    <a href="news.html" class="h-100 text-decoration-none hover-drop-shadow d-block">
+                        <div class="card h-100 shadow-sm"> 
+                            <div class="row w-100 h-100 mx-auto">
+                                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center p-0">
+                                    <img src="img/news/tile-1.jpg" class="w-100 h-100 obj-cover" alt="tile"/>
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <div class="card-body text-center text-sm-start">
+                                        <h4 class="text-light-green">
+                                            Wind and green energy
+                                        </h4>
+                                        <p class="text-secondary font-sm">
+                                            Event related to the newest trends in green 
+                                            energy solutions based on wind turbines
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </a>
+                </div>     
+     
+                <div class="col-12 col-sm-6">                    
+                    <a href="news.html" class="h-100 text-decoration-none hover-drop-shadow d-block">
+                        <div class="card h-100 shadow-sm"> 
+                            <div class="row w-100 h-100 mx-auto">
+                                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center p-0">
+                                    <img src="img/news/tile-2.jpg" class="w-100 h-100 obj-cover" alt="tile"/>
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <div class="card-body text-center text-sm-start">
+                                        <h4 class="text-light-green">
+                                            Future of carbon energy
+                                        </h4>
+                                        <p class="text-secondary font-sm">
+                                            Webinar related to considerations for future of
+                                            conventional energy sources based on carbon
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </a>
+                </div>    
+
+
+                <div class="col-12 text-center p-4">
+                    <div class="row w-100 mx-auto">
+                        <div class="text-center">
+                            <a href="news.html" class="btn btn-outline-secondary rounded-pill shadow-sm">
+                                See more
+                            </a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <section class="index-s6 container-fluid bg-timber-green d-flex align-items-center px-0">
+            <div class="row w-100 mx-0">
+                <div class="col-12 col-sm-6 minh-25vh bg-secondary p-0">
+                    <div class="h-100 w-100" id="map-container"></div>
+                </div>
+                <div class="col-12 col-sm-6 minh-25vh d-flex align-items-center py-4">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-10 mx-auto">
+                            <div class="card p-3 border">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 border-lg-end">
+                                        <p class="fs-bold text-light-green">
+                                            Address
+                                        </p> 
+                                        <address class="text-secondary ms-4">
+                                            SCI Institute<br/>
+                                            Abc Street 12<br/>
+                                            00-000 City
+                                        </address>
+                                    </div>                                
+                                    <div class="col-12 col-lg-6">
+                                        <p class="fs-bold text-light-green">
+                                            Contact
+                                        </p>
+                                        <address class="text-secondary ms-4">
+                                            (00) 00 123 45 56<br/>
+                                            contact&#64;sci.mail
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container-fluid bg-dark p-2 border-top border-secondary">
-            <div class="row w-100">
-                <div class="col-12">
-                    <p class="text-white text-center mb-0">
+        <div class="container-fluid bg-white p-2 border-top border-secondary">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 col-sm-6">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/footer_logo.png" class="" alt="logo"/>
+                        <span class="h1 fw-bold text-secondary navbar-text vertical-bottom border-bottom border-secondary pb-0">
+                            SCI           
+                        </span> 
+                        <br/>  
+                        <small class="fs-6 float-start text-secondary">SCI Institute</small>   
+                    </a>
+                    <address class="text-secondary border-start border-secondary my-3 ps-2">
+                        <small>
+                            SCI Institute<br/>
+                            Abc Street 12<br/>
+                            00-000 City
+                        </small>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-6 pb-3">
+                    <div class="text-center text-sm-end">
+                        <a href="index.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Home</small>
+                        </a>
+                        <a href="about.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>About</small>
+                        </a>
+                        <a href="offer.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Offer</small>
+                        </a>
+                        <a href="news.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>News</small>
+                        </a>
+                        <a href="contact.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Contact</small>
+                        </a>
+                    </div> 
+                </div>
+                <div class="col-12 border-top">
+                    <div class="text-secondary text-center mb-0 py-1">
                         <small>
                             Copyright &copy; 2021 Tomasz Pankowski.
-                            <a href="privacy.html" class="text-decoration-none text-light hover-underline">
+                            <a href="privacy.html" class="text-decoration-none text-secondary hover-underline">
                                 Privacy policy
                             </a>
                         </small>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div> 
     </footer>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh1xIfMS6UqeltTwp9dL-LtRcRb6J9ao8&callback=pointsMap"></script>
 </body>
 </html>

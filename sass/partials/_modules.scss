@@ -1,6 +1,25 @@
+.about{
+    &-s1{
+        @include set-background($about-s1-img,0,"center","cover","scroll");
+        background-blend-mode: overlay;
+    }
+    &-s2{
+        &__right-col{
+            @include set-background($about-s2__right-col-bg,0,"bottom","contain","scroll");
+        }
+    }
+}
+
 .comingsoon{
     &-s1{
         @include set-background($comingsoon-img,0,"center","cover","fixed");
+    }
+}
+
+.contact{
+    &-s1{
+        @include set-background($contact-s1-img,0,"center","cover","scroll");
+        background-blend-mode: overlay;
     }
 }
 
@@ -17,9 +36,73 @@
 }
 
 .hover{
+    &-drop-shadow{
+        &:hover{
+            filter: drop-shadow(2px 4px 6px black);
+            transition-property: filter;
+            transition-duration: 0.7s;
+        }
+    }
     &-underline{
         &:hover{
             text-decoration: underline !important;
         }
+    }
+}
+
+.index-s4{
+    &__right-col{
+        @include set-background($index-s4__right-col-bg,0,"bottom","contain","scroll");
+    }
+}
+
+
+.news{
+    &-s1{
+        @include set-background($news-s1-img,0,"center","cover","scroll");
+        background-blend-mode: overlay;
+    }
+}
+
+.offer{
+    &-s1{
+        @include set-background($offer-s1-img,0,"center","cover","scroll");
+        background-blend-mode: overlay;
+    }
+    &-s2{
+        &__right-col{
+            @include set-background($offer-s2__right-col-bg,0,"bottom","contain","scroll");
+        }
+    }
+    &-s3{
+        &__left-col{
+            @include set-background($offer-s3__left-col-bg,0,"bottom","contain","scroll");
+        }
+    }
+    &-s4{
+        &__right-col{
+            @include set-background($offer-s4__right-col-bg,0,"bottom","contain","scroll");
+        }
+    }
+    &-s5{
+        &__left-col{
+            @include set-background($offer-s5__left-col-bg,0,"top","cover","scroll");
+        }
+    }
+    &-s6{
+        &__right-col{
+            @include set-background($offer-s6__right-col-bg,0,"center","contain","scroll");
+        }
+    }
+
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .navbar-nav{
+        backdrop-filter: brightness(0.4);
     }
 }

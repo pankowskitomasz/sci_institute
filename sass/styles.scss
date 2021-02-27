@@ -3,5 +3,17 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/layout";
-@import "partials/modules";
+
+@import "partials/bg";
+@import "partials/border";
+@import "partials/filter";
+@import "partials/font";
+@import "partials/h";
+@import "partials/maxh";
 @import "partials/minh";
+@import "partials/obj";
+@import "partials/text";
+@import "partials/vertical";
+@import "partials/zindex";
+
+@import "partials/modules";
