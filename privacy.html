@@ -10,10 +10,15 @@
     <title>Privacy Policy</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a href="#" class="navbar-brand ms-2">
+    <header class="position-absolute border-bottom border-light w-100 z-100">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="index.html" class="navbar-brand ms-2">
                 <img src="img/navbar_logo.png" class="" alt="logo"/>
+                <span class="h1 fw-bold text-white navbar-text vertical-bottom border-bottom pb-0">
+                    SCI           
+                </span> 
+                <br/>  
+                <small class="fs-6 float-end">SCI Institute</small>   
             </a>
             <button class="navbar-toggler me-2" 
                 data-bs-toggle="collapse"
@@ -23,16 +28,28 @@
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav ms-auto p-2 text-end">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="about.html" class="nav-link text-light hover-underline">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="offer.html" class="nav-link text-light hover-underline">Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link text-light hover-underline">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-light hover-underline">Contact</a>
+                    </li>
+                    <li class="nav-item bg-success text-white my-auto py-2 px-3 rounded-pill">
+                        +(00) 12 123 45 67
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="privacy-s1 container-fluid d-flex align-items-center minh-100vh bg-dark">
+        <section class="privacy-s1 container-fluid d-flex align-items-center minh-100vh bg-dark pt-5">
             <div class="row justify-content-center mx-0 w-100 py-5">
-                <div class="col-12 col-sm-10 col-md-8 col-lg-6 card border-secondary p-3 initialism my-4">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 card border-secondary pt-5 p-3 initialism my-5">
                     <h1 class="h5 fw-bold text-secondary text-uppercase text-center">
                         Privacy policy
                     </h1>
@@ -72,17 +89,58 @@
         </section>
     </main>
     <footer>
-        <div class="container-fluid bg-dark p-2 border-top border-secondary">
-            <div class="row w-100">
-                <div class="col-12">
-                    <p class="text-white text-center mb-0">
+        <div class="container-fluid bg-white p-2 border-top border-secondary">
+            <div class="row w-100 mx-auto">
+                <div class="col-12 col-sm-6">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/footer_logo.png" class="" alt="logo"/>
+                        <span class="h1 fw-bold text-secondary navbar-text vertical-bottom border-bottom border-secondary pb-0">
+                            SCI           
+                        </span> 
+                        <br/>  
+                        <small class="fs-6 float-start text-secondary">SCI Institute</small>   
+                    </a>
+                    <address class="text-secondary border-start border-secondary my-3 ps-2">
+                        <small>
+                            SCI Institute<br/>
+                            Abc Street 12<br/>
+                            00-000 City
+                        </small>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-6 pb-3">
+                    <div class="text-center text-sm-end">
+                        <a href="index.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Home</small>
+                        </a>
+                        <a href="about.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>About</small>
+                        </a>
+                        <a href="offer.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Offer</small>
+                        </a>
+                        <a href="news.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>News</small>
+                        </a>
+                        <a href="contact.html" 
+                            class="d-inline d-sm-block nav-link text-secondary hover-underline pb-0">
+                            <small>Contact</small>
+                        </a>
+                    </div> 
+                </div>
+                <div class="col-12 border-top">
+                    <div class="text-secondary text-center mb-0 py-1">
                         <small>
                             Copyright &copy; 2021 Tomasz Pankowski.
-                            <a href="privacy.html" class="text-decoration-none text-light hover-underline">
+                            <a href="privacy.html" class="text-decoration-none text-secondary hover-underline">
                                 Privacy policy
                             </a>
                         </small>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div> 

@@ -1,0 +1,7 @@
+@media all and (min-width: 992px){
+    .border-lg{
+        &-end{
+            border-right: $border;
+        }
+    }
+}

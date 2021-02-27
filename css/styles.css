@@ -8,36 +8,55 @@ body, html {
   min-height: 100vh;
 }
 
-/* line 2, ../sass/partials/_modules.scss */
-.comingsoon-s1 {
-  background-attachment: fixed;
-  background-image: url(../img/error_bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* line 2, ../sass/partials/_bg.scss */
+.bg-light-green {
+  background-color: #15BF9F;
+}
+/* line 5, ../sass/partials/_bg.scss */
+.bg-timber-green {
+  background-color: #22363b;
 }
 
-/* line 8, ../sass/partials/_modules.scss */
-.error-s1 {
-  background-attachment: fixed;
-  background-image: url(../img/error_bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media all and (min-width: 992px) {
+  /* line 3, ../sass/partials/_border.scss */
+  .border-lg-end {
+    border-right: 1px solid #bbb;
+  }
+}
+/* line 3, ../sass/partials/_filter.scss */
+.filter-bright-4 {
+  filter: brightness(0.4);
 }
 
-/* line 14, ../sass/partials/_modules.scss */
-.privacy-s1 {
-  background-attachment: fixed;
-  background-image: url(../img/error_bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* line 2, ../sass/partials/_font.scss */
+.font-sm {
+  font-size: 14px;
 }
 
-/* line 21, ../sass/partials/_modules.scss */
-.hover-underline:hover {
-  text-decoration: underline !important;
+/* line 2, ../sass/partials/_h.scss */
+.h-25vh {
+  height: 25vh;
+}
+/* line 5, ../sass/partials/_h.scss */
+.h-50vh {
+  height: 50vh;
+}
+/* line 8, ../sass/partials/_h.scss */
+.h-75vh {
+  height: 75vh;
+}
+/* line 11, ../sass/partials/_h.scss */
+.h-100vh {
+  height: 100vh;
+}
+
+/* line 2, ../sass/partials/_maxh.scss */
+.maxh-400 {
+  max-height: 400px;
+}
+/* line 5, ../sass/partials/_maxh.scss */
+.maxh-600 {
+  max-height: 600px;
 }
 
 /* line 2, ../sass/partials/_minh.scss */
@@ -55,4 +74,183 @@ body, html {
 /* line 11, ../sass/partials/_minh.scss */
 .minh-100vh {
   min-height: 100vh;
+}
+
+/* line 2, ../sass/partials/_obj.scss */
+.obj-cover {
+  object-fit: cover;
+}
+
+/* line 2, ../sass/partials/_text.scss */
+.text-light-green {
+  color: #15BF9F;
+}
+
+/* line 2, ../sass/partials/_vertical.scss */
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+/* line 2, ../sass/partials/_zindex.scss */
+.z-0 {
+  z-index: 0;
+}
+/* line 5, ../sass/partials/_zindex.scss */
+.z-10 {
+  z-index: 10;
+}
+/* line 8, ../sass/partials/_zindex.scss */
+.z-50 {
+  z-index: 50;
+}
+/* line 11, ../sass/partials/_zindex.scss */
+.z-100 {
+  z-index: 100;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1__bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+/* line 7, ../sass/partials/_modules.scss */
+.about-s2__right-col {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s4__right-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.comingsoon-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 20, ../sass/partials/_modules.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1__bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+/* line 27, ../sass/partials/_modules.scss */
+.error-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 33, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-attachment: fixed;
+  background-image: url(../img/error_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 40, ../sass/partials/_modules.scss */
+.hover-drop-shadow:hover {
+  filter: drop-shadow(2px 4px 6px black);
+  transition-property: filter;
+  transition-duration: 0.7s;
+}
+/* line 47, ../sass/partials/_modules.scss */
+.hover-underline:hover {
+  text-decoration: underline !important;
+}
+
+/* line 54, ../sass/partials/_modules.scss */
+.index-s4__right-col {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s4__right-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 61, ../sass/partials/_modules.scss */
+.news-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/news/news-s1__bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+/* line 68, ../sass/partials/_modules.scss */
+.offer-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s1__bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+/* line 73, ../sass/partials/_modules.scss */
+.offer-s2__right-col {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s2__bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 78, ../sass/partials/_modules.scss */
+.offer-s3__left-col {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s3__bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 83, ../sass/partials/_modules.scss */
+.offer-s4__right-col {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s4__bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 88, ../sass/partials/_modules.scss */
+.offer-s5__left-col {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s5__bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 93, ../sass/partials/_modules.scss */
+.offer-s6__right-col {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s6__bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 100, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 105, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    backdrop-filter: brightness(0.4);
+  }
 }
